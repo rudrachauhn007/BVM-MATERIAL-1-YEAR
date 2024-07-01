@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+html{
+    background-color: black;
+    background-color: 
+    
+    
+}
+.main{
+    display: flex;
+}
+
+
+.FRESHERS{
+    display: flex;
+    align-items: center;
+    border-right: 4px solid black;
+    animation-name: typing-fre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(16);
+    white-space: nowrap;
+    overflow: hidden;
+    color:black;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+
+}
+.first-3 ,.second-3{
+    position : relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    gap : 2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card1,.card2,.card3{
+    width : 30%;
+    display : flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.quote{
+
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Playwrite NZ', cursive;
+    font-size: 40px;
+    color: #00e676;
+    text-align: center;
+    text-shadow:
+        0 0 5px #00e676,
+        0 0 10px #00e676,
+        0 0 20px #00e676,
+        0 0 40px #00e676,
+        0 0 62px #00e676;
+        
+}
+    
+.card-title{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+   font-size: 25px;
+}
+.card-content{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+   font-size: 20px;
+}
+.other{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: #ff1837;
+    text-align: center;
+    text-shadow:
+        0 0 5px #ff1837,
+        0 0 10px #ff1837,
+        0 0 20px #ff1837,
+        0 0 40px #ff1837,
+        0 0  62px rgba(255, 24, 55, 0.7);
+    
+    
+}
+.FRESHER{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 48px;
+    color: #00e676;
+    text-align: center;
+    text-shadow:
+        0 0 5px #00e676,
+        0 0 10px #00e676,
+        0 0 20px #00e676,
+        0 0 40px #00e676,
+        0 0 80px rgba(0, 230, 118, 0.7),
+        0 0 100px rgba(0, 230, 118, 0.6),
+        0 0 150px rgba(0, 230, 118, 0.5),
+        0 0 200px rgba(0, 230, 118, 0.4),
+        0 0 250px rgba(0, 230, 118, 0.3);
+        display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
+    border-right: 4px solid black;
+    animation-name: typing-fre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(16);
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: black;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.card-title{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.title{
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+#sem-2-head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+.title
+{
+    color: #ff1837;
+    text-align: center;
+    text-shadow:
+        0 0 5px #ff1837,
+        0 0 10px #ff1837,
+        0 0 20px #ff1837,
+        0 0 40px #ff1837,
+        0 0 62px #ff1837;
+}
+.img1{
+    width : 90%;
+    border-radius : 15px;
+    object-fit : cover;
+    box-shadow: 0 0 30px #00e676;
+    
+}
+.img2{
+    width : 90%;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 0 30px #ff1837;
+}
+.t1{
+    color: #ff1837;
+    text-align: center;
+    text-shadow:
+               0 0 5px #ff1837,
+               0 0 10px #ff1837,
+            0 0 20px #ff1837,
+               0 0 40px #ff1837,
+        0 0 62px #ff1837;
+    
+
+}
+.t2{
+    color: #00e676;
+    text-align: center;
+    text-shadow:
+               0 0 5px #00e676,
+               0 0 10px #00e676,
+               0 0 20px #00e676,
+               0 0 40px #00e676,
+              0 0 62px #00e676;
+    
+
+}
+
+
+.other ,.title{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+.sem-2-head{
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Playwrite NZ', cursive;
+    font-size: 40px;
+    color: #00e676;
+    text-align: center;
+    text-shadow:
+        0 0 5px #00e676,
+        0 0 10px #00e676,
+        0 0 20px #00e676,
+        0 0 40px #00e676,
+        0 0 62px #00e676;
+}
+.card-content{
+    color :beige;
+}
+.fa-linkedin{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: #ff1837;
+    color :blue;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 25px;
+    text-shadow:
+        0 0 5px #ff1837,
+        0 0 10px #ff1837,
+        0 0 20px #ff1837,
+        0 0 40px #ff1837,
+        0 0  62px rgba(255, 24, 55, 0.7);
+    
+}
+.copyright{
+    font-family: 'Playwrite NZ', cursive;
+    font-size: 20px;
+    color: #00e676;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow:
+        0 0 5px #00e676,
+        0 0 10px #00e676,
+        0 0 20px #00e676,
+        0 0 40px #00e676,
+        0 0 62px #00e676;
+
+}
+
+@media (max-width: 1200px) {
+    .first-3, .second-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1, .card2, .card3 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .quote {
+        font-size: 1em;
+    }
+    .sem-2-head{
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .FRESHER {
+        font-size: 1.4em;
+        margin-left: 25%;
+        border-right: none;
+    }
+    .fa-linkedin{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .copyright
+    {
+        text-align: center;
+        align-items: center;
+        font-size: 1rem;
+        margin-left: 10px;
+        padding: 10px;
+    }
+}
+
+
+
+
+@keyframes typing-fre
+{
+   0% {width: 0;}
+   50%{width: 11ch;}
+   100%(width : 0;)
+}
+@keyframes typing-quote
+{
+   0% {width: 0;}
+   50%{width: 80ch;}
+   100%(width : 0;)
+}
